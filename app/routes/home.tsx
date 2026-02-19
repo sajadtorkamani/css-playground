@@ -7,11 +7,11 @@ import {
   NavigationMenuLink,
   NavigationMenuList,
   NavigationMenuTrigger,
-} from '~/components/ui/navigation-menu'
+} from '@/components/ui/navigation-menu'
 import { Link } from 'react-router'
-import { Card, CardContent } from '~/components/ui/card'
-import { AppHeader } from '~/components/app-header'
-import { AppLayout } from '~/routes/app-layout'
+import { Card, CardContent } from '@/components/ui/card'
+import { AppHeader } from '@/components/app-header'
+import { AppLayout } from '@/routes/app-layout'
 
 export function meta({}: Route.MetaArgs) {
   return [

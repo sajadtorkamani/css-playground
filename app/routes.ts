@@ -8,6 +8,6 @@ import {
 export default [
   layout('./routes/app-layout.tsx', [
     index('routes/home.tsx'),
-    route('css-grid/basic', 'routes/css-grid-basic.tsx'),
+    route('css-grids-basic', 'routes/css-grid-basic.tsx'),
   ]),
 ] satisfies RouteConfig
