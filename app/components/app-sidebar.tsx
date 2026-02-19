@@ -18,7 +18,7 @@ export function AppSidebar() {
     versions: ['1.0.1', '1.1.0-alpha', '2.0.0-beta1'],
     navMain: [
       {
-        title: 'Getting Started',
+        // title: 'Getting Started',
         url: '#',
         items: [
           {
@@ -28,20 +28,6 @@ export function AppSidebar() {
           {
             title: 'CSS Grids - Basic',
             url: '/css-grids-basic',
-          },
-        ],
-      },
-      {
-        title: 'Build Your Application',
-        url: '#',
-        items: [
-          {
-            title: 'Example',
-            url: '#',
-          },
-          {
-            title: 'Example',
-            url: '#',
           },
         ],
       },
