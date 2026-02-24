@@ -1,0 +1,8 @@
+.grid {
+  grid-template-columns: 200px 200px;
+}
+
+.grid-item {
+  border: 1px solid #ccc;
+  padding: 10px;
+}

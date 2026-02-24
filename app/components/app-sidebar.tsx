@@ -29,6 +29,10 @@ export function AppSidebar() {
             title: 'CSS Grids - Basic',
             url: '/css-grids-basic',
           },
+          {
+            title: 'CSS Grids - fr',
+            url: '/css-grids-fr',
+          },
         ],
       },
     ],
