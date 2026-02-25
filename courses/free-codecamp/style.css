@@ -12,14 +12,13 @@
 
 .container {
   display: grid;
-  grid-template-columns: 100px auto;
-  grid-template-rows: 50px 50px 200px;
+  grid-template: auto / repeat(4, 1fr);
   grid-gap: 10px;
 }
 
 .container div {
   border: 1px solid black;
-  font-size: 40px;
+  font-size: 80px;
   text-align: center;
 }
 
