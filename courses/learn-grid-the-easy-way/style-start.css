@@ -159,9 +159,6 @@ h3 {
   border: 1px solid red;
 }
 
-.grid-col-span-2 {
-  grid-column: span 2;
-}
 
 /*
 * -------------------------------------------------
@@ -171,10 +168,13 @@ h3 {
 .testimonial-grid {
   display: grid;
   gap: 1.5rem;
-  grid-template-columns: repeat(4, 1fr);
+
   padding-block: 2rem;
   width: min(95%, 70rem);
   margin-inline: auto;
+}
+
+@media (min-width: 800px) {
 }
 
 .testimonial {
@@ -185,10 +185,6 @@ h3 {
 }
 
 
-.testimonial:last-child {
-  grid-column-start: 4;
-  grid-row: 1 / 3;
-}
 
 .testimonial.quote {
   background-image: url("./images/bg-pattern-quotation.svg");

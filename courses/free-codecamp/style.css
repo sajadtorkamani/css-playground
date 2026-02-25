@@ -1,0 +1,28 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+
+.wrapper {
+  margin: 40px auto;
+  max-width: 1000px;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 100px auto;
+  grid-template-rows: 50px 50px 200px;
+  grid-gap: 2rem;
+}
+
+.container div {
+  border: 1px solid black;
+  font-size: 40px;
+  text-align: center;
+}
+
+.container div:nth-child(odd) {
+  background-color: #f0f0f0;
+}
