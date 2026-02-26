@@ -7,13 +7,15 @@
 .wrapper {
   margin: 40px auto;
   padding: 0 16px;
+  height: 90vh;
   max-width: 1000px;
 }
 
 .container {
   display: grid;
+  height: 100%;
   grid-template-columns: repeat(12, 1fr);
-  grid-template-rows: 40px 300px 40px;
+  grid-template-rows: 40px auto 40px;
   grid-gap: 10px;
 }
 
